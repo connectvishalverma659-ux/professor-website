@@ -14,13 +14,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #F8F9FB;
+    --background: #ededed;
+    --foreground: #171717;
   }
 }
 
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('/images/backgrounds/UIBackground.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

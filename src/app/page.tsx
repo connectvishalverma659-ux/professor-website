@@ -136,7 +136,7 @@ export default function Home() {
 
       </div>
 
-      <div className="w-64 overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 backdrop-blur-sm bg-[#ededed]]/70">
+      <div className="w-64 overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 backdrop-blur-sm ">
         <div className="space-y-4">
 
           {positions.map((position) => (
@@ -154,7 +154,7 @@ export default function Home() {
       </div>
                      <a
                    href="/positions"
-                   className="px-6 py-3 font-bold rounded-lg hover:opacity-50  ml-auto"
+                   className="gap-4 px-6 py-3 font-bold rounded-lg hover:opacity-50  ml-auto"
                      >
                      View Details →
               </a>

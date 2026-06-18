@@ -53,16 +53,20 @@ export default function RootLayout({
         <Navbar />
 
         <main className="flex-1">
-          <body
-           style={{
-               backgroundImage: "url('/images/backgrounds/UIBackground.png')",
-               backgroundAttachment: "fixed",
-               backgroundSize: "cover",
-               backgroundPosition: "center",
-               }}
-               ></body>
-          {children}
-        </main>
+  <div
+    className="min-h-full"
+    style={{
+      backgroundImage:
+        "url('/images/backgrounds/UIBackground.png')",
+
+      backgroundAttachment: "fixed",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
+    {children}
+  </div>
+</main>
 
         <Footer />
          
