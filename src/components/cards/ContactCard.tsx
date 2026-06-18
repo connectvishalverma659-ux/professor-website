@@ -8,7 +8,7 @@ export default function ContactCard({
   contact,
 }: ContactCardProps) {
   return (
-    <div className="border rounded-lg p-6 shadow-sm">
+    <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 backdrop-blur-sm">
 
       <h2 className="text-2xl font-semibold mb-4">
         {contact.name}

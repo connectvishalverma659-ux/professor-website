@@ -1,11 +1,11 @@
 import { Contact } from "@/types/contact";
 
 export const contact: Contact = {
-  name: "Prof. Akash kaithal",
+  name: "Prof. Akash Kaithal",
 
-  designation: "Professor",
+  designation: "Assistant Professor",
 
-  department: "Department of Computer Science and Engineering",
+  department: "Chemistry",
 
   email: "abc@iitr.ac.in",
 
@@ -19,5 +19,5 @@ export const contact: Contact = {
   officeHours:
     "Monday–Friday, 2:00 PM – 4:00 PM",
     
-  profileImage: "/images/Professor Image/ProfessorProfileImage.png",
+  profileImage: "/images/Professor Image/ProfessorProfileImage2.png",
 };

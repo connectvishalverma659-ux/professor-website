@@ -81,7 +81,7 @@ export default function AboutPage() {
           Academic Journey
         </h2>
 
-        <div className="border rounded-lg p-6">
+        <div className=" rounded-lg p-6">
           Academic qualifications and career progression
           will be displayed here.
         </div>
@@ -107,20 +107,38 @@ export default function AboutPage() {
         </h2>
 
         <div className="flex flex-wrap gap-4">
-
-          <button className="border px-4 py-2 rounded">
+          
+          <a
+            href="https://orcid.org/0000-0003-3328-3003"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <button className="px-6 py-3 font-bold rounded-lg hover:opacity-50">
             ORCID
           </button>
+          </a>
 
-          <button className="border px-4 py-2 rounded">
-            ResearchGate
+          <a
+            href="https://scholar.google.com/citations?user=RHwRT7kAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <button className="px-6 py-3 font-bold rounded-lg hover:opacity-50">
+            Google Scholar Profile
           </button>
+          </a>
 
-          <button className="border px-4 py-2 rounded">
+          <a
+            href="https://www.linkedin.com/in/akash-kaithal-599abb86/ "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <button className="px-6 py-3 font-bold rounded-lg hover:opacity-50">
             LinkedIn
           </button>
+          </a>
 
-          <button className="border px-4 py-2 rounded">
+          <button className="px-6 py-3 font-bold rounded-lg hover:opacity-50">
             Download CV
           </button>
 

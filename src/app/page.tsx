@@ -12,33 +12,46 @@ export default function Home() {
     const featuredResearch = researchAreas.slice(0, 3);
     const featuredNews = newss.slice(0, 3);
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+      
+    <div className="">
 
       {/* Hero Section */}
+
+     <div className="min-h-screen w-screen "
+     style={{
+    backgroundImage: "url('/images/backgrounds/herosection background 1.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+     >
+      
+      
+      <div className="max-w-7xl mx-auto px-6 py-12 ">
       <section className="text-center py-16">
             
-                <section className="py-20 text-center">
+                <section className="py-20 text-right">
             
                   <h1 className="text-5xl font-bold mb-6">
                        {homeData.heroTitle}
                   </h1>
             
-                  <p className="max-w-3xl mx-auto text-lg text-gray-700 mb-8">
+                  <p className="text-right max-w-3xl ml-auto text-lg text-gray-700 mb-8">
                     {homeData.heroDescription}
                   </p>
             
-                  <div className="flex justify-center gap-4">
+                  <div className="flex justify-end gap-4">
             
                     <a
                       href="/research"
-                      className="px-6 py-3 border rounded-lg"
+                      className="px-6 py-3 font-bold rounded-lg hover:opacity-50"
                     >
-                      View Research
+                      Research
                     </a>
             
                     <a
                       href="/publications"
-                      className="px-6 py-3 border rounded-lg"
+                      className="px-6 py-3 font-bold rounded-lg hover:opacity-50"
                     >
                       Publications
                     </a>
@@ -49,7 +62,9 @@ export default function Home() {
              
 
       </section>
-
+      </div> 
+      </div> 
+<div className="max-w-7xl mx-auto px-6 py-12">
       {/* Research Highlights */}
       
       <section className="py-16">
@@ -62,7 +77,7 @@ export default function Home() {
       
               <a
                 href="/research"
-                className="text-blue-600 hover:underline"
+                className="px-6 py-3 font-bold rounded-lg hover:opacity-50"
               >
                 View All →
               </a>
@@ -92,7 +107,7 @@ export default function Home() {
 
         <a
           href="/news"
-          className="text-blue-600 hover:underline"
+          className="px-6 py-3 font-bold rounded-lg hover:opacity-50"
         >
           View All →
         </a>
@@ -118,31 +133,34 @@ export default function Home() {
           Open Positions
         </h2>
 
-        <a
-          href="/positions"
-          className="text-blue-600 hover:underline"
-        >
-          View Details →
-        </a>
+
       </div>
 
-      <div className="border rounded-lg p-6">
+      <div className="w-64 overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 backdrop-blur-sm bg-[#ededed]]/70">
         <div className="space-y-4">
 
           {positions.map((position) => (
             <div
               key={position.id}
-              className="flex justify-between border-b pb-2"
+              className="flex justify-between pb-2"
             >
               <span>{position.type}</span>
               <span>{position.status}</span>
             </div>
           ))}
-
+                 
         </div>
+
       </div>
+                     <a
+                   href="/positions"
+                   className="px-6 py-3 font-bold rounded-lg hover:opacity-50  ml-auto"
+                     >
+                     View Details →
+              </a>
       </section>
 
+    </div>
     </div>
   );
 }
