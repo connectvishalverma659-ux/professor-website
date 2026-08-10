@@ -1,9 +1,10 @@
-import ResearchCard from "@/components/cards/ResearchCard";
+{/*import ResearchCard from "@/components/cards/ResearchCard";
 import { researchAreas } from "@/data/research";
+import { researchHighlightsArea } from "@/data/ResearchHighlights";
 
 export default function ResearchHighlights() {
 
-  const featuredResearch = researchAreas.slice(0, 3);
+  const featuredResearch = researchHighlightsArea.slice(0, 4);
 
   return (
     <section className="py-16">
@@ -36,4 +37,4 @@ export default function ResearchHighlights() {
 
     </section>
   );
-}
+}*/}

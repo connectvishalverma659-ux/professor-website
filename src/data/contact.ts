@@ -1,15 +1,15 @@
 import { Contact } from "@/types/contact";
 
 export const contact: Contact = {
-  name: "Prof. Akash Kaithal",
+  name: "Akash Kaithal",
 
-  designation: "Assistant Professor",
+  designation: "Assistantdd Professor",
 
   department: "Chemistry",
 
-  email: "abc@iitr.ac.in",
+  email: "akash.kaithal@cy.iitr.ac.in / akash.kaithal@gmail.com",
 
-  phone: "+91-1234567890",
+  phone: "+91(0)1332285699 (Office)",
 
   officeAddress: "Room 302, CS Building",
 

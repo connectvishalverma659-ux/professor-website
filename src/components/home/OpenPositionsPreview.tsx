@@ -18,12 +18,12 @@ export default function OpenPositionsPreview() {
       </div>
 
       <div className="border rounded-lg p-6">
-        <div className="space-y-4">
+        <div className="font-[var(--font-inter)] space-y-4">
 
           {positions.map((position) => (
             <div
               key={position.id}
-              className="flex justify-between border-b pb-2"
+              className="font-[var(--font-inter)] flex justify-between border-b pb-2"
             >
               <span>{position.type}</span>
               <span>{position.status}</span>

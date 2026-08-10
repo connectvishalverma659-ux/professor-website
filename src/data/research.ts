@@ -2,7 +2,7 @@ import { Research } from "@/types/research";
 
 export const researchAreas: Research[] = [
   {
-    title: "Artificial Intelligence",
+    title: "1 Intelligence",
     description:
       "Research on intelligent systems and AI applications.",
   },

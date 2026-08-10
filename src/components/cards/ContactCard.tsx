@@ -10,21 +10,21 @@ export default function ContactCard({
   return (
     <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 backdrop-blur-sm">
 
-      <h2 className="text-2xl font-semibold mb-4">
+      <h2 className="px-2 text-2xl font-semibold mb-4">
         {contact.name}
       </h2>
 
-      <p>
+      <p className="px-1">
         <strong>Designation:</strong>{" "}
         {contact.designation}
       </p>
 
-      <p>
+      <p className="px-1">
         <strong>Department:</strong>{" "}
         {contact.department}
       </p>
 
-      <p>
+      <p className="px-1">
         <strong>Email:</strong>{" "}
         <a
           href={`mailto:${contact.email}`}
@@ -34,22 +34,22 @@ export default function ContactCard({
         </a>
       </p>
 
-      <p>
+      <p className="px-1">
         <strong>Phone:</strong>{" "}
         {contact.phone}
       </p>
 
-      <p>
+      <p className="px-1">
         <strong>Office:</strong>{" "}
         {contact.officeAddress}
       </p>
 
-      <p>
+      <p className="px-1">
         <strong>Department Address:</strong>{" "}
         {contact.departmentAddress}
       </p>
 
-      <p>
+      <p className="px-1">
         <strong>Office Hours:</strong>{" "}
         {contact.officeHours}
       </p>
