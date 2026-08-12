@@ -9,7 +9,7 @@ export default function ResearchPage() {
     <div className="max-w-6xl mx-auto px-6 py-12">
 
       <PageHeader
-        title="Research"
+        title="Available Soon"
         description="Research areas, projects, and collaborations."
       />
 

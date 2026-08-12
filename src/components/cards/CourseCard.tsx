@@ -18,7 +18,7 @@ export default function CourseCard({
       </p>
 
       <p>
-        <strong>Semester:</strong> {course.semester}
+        <strong>institute:</strong> {course.institute}
       </p>
     </div>
   );

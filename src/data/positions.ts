@@ -4,11 +4,11 @@ export const positions: Position[] = [
 
   {
     id: 1,
-    title: "PhD Position in Artificial Intelligence",
+    title: "PhD Position in Organic Synthesis",
     type: "PhD",
     status: "Open",
     description:
-      "Looking for motivated students interested in Artificial Intelligence and Machine Learning.",
+      "Looking for motivated students interested in Organic Synthesis.",
     applyEmail: "professor@iitr.ac.in",
   },
   {

@@ -7,7 +7,7 @@ export default function NewsPage() {
     <div className="max-w-6xl mx-auto px-6 py-12">
 
       <PageHeader
-        title="News & Announcements"
+        title="Available Soon"
         description="Current News."
       />
 
