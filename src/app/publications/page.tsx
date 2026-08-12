@@ -11,7 +11,7 @@ export default function PublicationsPage() {
         description="Journal papers, conference papers, and research contributions."
       />
 
-      <div className="mt-10 grid md:grid-cols-2 gap-6">
+      <div className="wt-10 grid md:grid-cols-1 gap-6">
 
         {publications.map((publication) => (
           <PublicationCard
